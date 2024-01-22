@@ -48,3 +48,4 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 urllib3==1.26.13
     # via requests
+sphinx-book-theme==23.3.2
