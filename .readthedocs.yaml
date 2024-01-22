@@ -9,8 +9,9 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
-   install:
-     - requirements: source/requirements.txt
+ #  install:
+ #    - requirements: source/requirements.txt
+     sphinx-book-theme："23.3.2"
     # You can also specify other tool versions:
     # nodejs: "20"
     # rust: "1.70"
