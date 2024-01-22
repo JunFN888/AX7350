@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 extensions = []
 
-templates_path = ['_templates']
+#templates_path = ['_templates']
 exclude_patterns = []
 
 language = 'zh_CN'
