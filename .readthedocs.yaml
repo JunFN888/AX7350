@@ -23,9 +23,8 @@ python:
   version: 3.11
   install:
     - requirements: source/requirements.txt
-    - requirements: source/requirements_docs.txt  # Add this line if you have a separate requirements file for documentation
     
   # Install additional packages needed for building the documentation, such as themes
   extra_requirements:
-    docs:  # "docs" is the Python environment for building documentation
+    source:  # "docs" is the Python environment for building documentation
       - sphinx_book_theme
